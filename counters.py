@@ -19,7 +19,7 @@ class counter:
 		if space in counter.word:
 			print("il y a {} voyelles dans votre phrase ".format(v_counter))
 		else:
-			print("il y a {} voyelles dans votre mot ".format(v_counter, counter.word))
+			print("il y a {} voyelles dans votre mot ".format(v_counter))
 	
 
 		
