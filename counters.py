@@ -17,9 +17,9 @@ class counter:
 				v_counter + 0
 			
 		if space in counter.word:
-			print("il y a {} voyelles dans la phrase {}".format(v_counter, counter.word))
+			print("il y a {} voyelles dans votre phrase ".format(v_counter))
 		else:
-			print("il y a {} voyelles dans le mot {}".format(v_counter, counter.word))
+			print("il y a {} voyelles dans votre mot ".format(v_counter, counter.word))
 	
 
 		
@@ -38,9 +38,9 @@ class counter:
 				c_counter + 0
 			
 		if space in counter.word:
-			print("il y a {} consonnes dans la phrase {}".format(c_counter, counter.word))
+			print("il y a {} consonnes dans votre phrase {}".format(c_counter))
 		else:
-			print("il y a {} consonnes dans le mot {}".format(c_counter, counter.word))	
+			print("il y a {} consonnes dans votre mot ".format(c_counter))	
 	
 	
 
